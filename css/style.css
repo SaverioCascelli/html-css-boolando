@@ -103,6 +103,17 @@ main .container{
     width: 100%;
 }
 
+.product-img .img-hover{
+    position:absolute;
+    left:0;
+}
+
+.product-img:hover .img-hover{
+    z-index: -1;
+}
+
+
+
 .product-img .hearth{
     display: flex;
     align-items: center;
