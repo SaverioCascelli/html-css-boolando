@@ -113,8 +113,6 @@ main .container{
     z-index: -1;
 }
 
-
-
 .product-img .hearth{
     display: flex;
     align-items: center;
@@ -166,6 +164,10 @@ main .container{
 }
 
 .product-info .current-price::after{
+    content: '\20AC';
+}
+
+.product-info .original-price::after{
     content: '\20AC';
 }
 
