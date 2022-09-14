@@ -119,6 +119,21 @@ main .container{
 .product-img .bottom-img{
     position: absolute;
     bottom:40px;
+    color: white;
+    font-size: .8rem;
+}
+
+.product-img .discount , .sustainability{
+    padding: 5px 10px;
+}
+
+.product-img .discount{
+    background-color: rgb(255, 0, 0);
+}
+
+.product-img .sustainability{
+    background-color: rgb(0, 128, 0);
+    font-weight: 800;
 }
 
 .product-info{
