@@ -8,19 +8,20 @@
 
 .debug{
     background-color: rgba(0, 255 , 0 , .25);
-    margin: solid green;
+    border: solid black 1px;
 }
 
 /* /tools */
 
 .container{
-    margin: 0 15%;
+    margin: 0 14%;
 }
 
 /* header */
 header{
     height: 70px;
-    background-color: rgb(255, 105, 0);           
+    background-color: rgb(255, 105, 0);  
+    margin-bottom: 50px ;         
 }
 
 header .container{
@@ -38,12 +39,38 @@ header .container{
 
 /* /header */
 
+/* main */
 main{
     background-color: rgb(255, 255, 255);
+}
+
+main .container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.product{
+    width: calc(100%/3 - 10px);
+    margin-bottom: 50px;
 
     /* remove */
-    height: 800px;
+    height: 700px;
 }
+
+.product .img{
+    height: 650px;
+    width: 100%;
+}
+
+.product-info{
+    width: 100%;
+
+    /* remove */
+    height:50px;
+}
+
+/* /main */
 
 footer{
     background-color: rgb(26, 26, 26);
