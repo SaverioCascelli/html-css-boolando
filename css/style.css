@@ -187,16 +187,26 @@ footer .container{
     justify-content: space-between  ;
 }
 
-.left-footer{
-    /* remove */
-    width :50px;
-    height:50px;
+footer ul{
+    display: flex;
+    list-style-type: none;
+    padding-top: 10px;
+
 }
 
-.right-footer{
-    /* remove */
-    width: 50px;
-    height: 50px
+.left-footer p{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.right-footer p{
+
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+.right-footer ul li a{
+    font-size: 1.3rem;
 }
 
 /* /footer */
