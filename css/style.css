@@ -136,11 +136,30 @@ main .container{
     font-weight: 800;
 }
 
-.product-info{
-    width: 100%;
+.product-info .logo{
+    font-size: .8rem;
+}
 
-    /* remove */
-    height:50px;
+.product-name h4{
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+.product-info .price{
+    font-size: .9rem;
+}
+
+.product-info .current-price{
+    color :rgb(255, 0, 0);
+}
+
+.product-info .current-price::after{
+    content: '\20AC';
+}
+
+.product-info .original-price{
+    text-decoration: line-through;
+
 }
 
 /* /main */
