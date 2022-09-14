@@ -72,7 +72,29 @@ main .container{
 
 /* /main */
 
+/* footer */
 footer{
     background-color: rgb(26, 26, 26);
+
 }
+
+footer .container{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between  ;
+}
+
+.left-footer{
+    /* remove */
+    width :50px;
+    height:50px;
+}
+
+.right-footer{
+    /* remove */
+    width: 50px;
+    height: 50px
+}
+
+/* /footer */
 
