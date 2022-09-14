@@ -128,7 +128,7 @@ main{
 }
 
 
-.hearth > :hover{
+.hearth :hover{
     color: red;
 }
 
