@@ -53,14 +53,27 @@ main .container{
 .product{
     width: calc(100%/3 - 10px);
     margin-bottom: 50px;
+    
 
     /* remove */
     height: 700px;
 }
 
 .product .img{
+    position: relative;
     height: 650px;
     width: 100%;
+}
+
+.img .hearth{
+    position:absolute;
+    right:0;
+    top:10px;
+}
+
+.img .bottom-img{
+    position: absolute;
+    bottom:40px;
 }
 
 .product-info{
