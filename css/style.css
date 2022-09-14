@@ -4,3 +4,48 @@
     box-sizing: border-box;
 }
 
+/* tools */
+
+.debug{
+    background-color: rgba(0, 255 , 0 , .25);
+    margin: solid green;
+}
+
+/* /tools */
+
+.container{
+    margin: 0 15%;
+}
+
+/* header */
+header{
+    height: 70px;
+    background-color: rgb(255, 105, 0);           
+}
+
+header .container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+}
+
+/* /header */
+
+main{
+    background-color: rgb(255, 255, 255);
+
+    /* remove */
+    height: 800px;
+}
+
+footer{
+    background-color: rgb(26, 26, 26);
+}
+
