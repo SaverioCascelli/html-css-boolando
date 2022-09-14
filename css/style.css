@@ -127,6 +127,11 @@ main{
     font-size: 35px;
 }
 
+
+.hearth > :hover{
+    color: red;
+}
+
 .product-img .bottom-img{
     position: absolute;
     bottom:40px;
