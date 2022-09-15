@@ -91,6 +91,8 @@ main{
 .product{
     width: calc(100%/3 - 10px);
     margin-bottom: 50px;
+    min-width: 300px;
+    flex-grow: 0;
     
 
     /* remove */
@@ -180,6 +182,11 @@ main{
 .product-info .original-price{
     text-decoration: line-through;
 
+}
+
+#empty{
+    flex-grow: 100;
+    max-width: calc(100%/3);
 }
 
 /* /main */
